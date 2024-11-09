@@ -1,4 +1,4 @@
-package co.edu.uptc.tienda.gui;
+package co.edu.uptc.gui;
 
 import javax.swing.JDialog;
 import javax.swing.JTextArea;

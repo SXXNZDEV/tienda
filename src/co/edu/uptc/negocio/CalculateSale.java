@@ -1,7 +1,6 @@
-package co.edu.uptc.tienda.negocio;
-
-import co.edu.uptc.tienda.modelo.Sales;
-import co.edu.uptc.tienda.modelo.Seller;
+package co.edu.uptc.negocio;
+import co.edu.uptc.modelo.Sales;
+import co.edu.uptc.modelo.Seller;
 
 import java.util.ArrayList;
 import java.util.Map;

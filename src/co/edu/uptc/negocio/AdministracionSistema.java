@@ -1,6 +1,8 @@
-package co.edu.uptc.tienda.negocio;
+package co.edu.uptc.negocio;
 
-import co.edu.uptc.tienda.modelo.*;
+import co.edu.uptc.modelo.Inventory;
+import co.edu.uptc.modelo.Seller;
+import co.edu.uptc.modelo.Sales;
 
 import javax.swing.*;
 import java.io.*;

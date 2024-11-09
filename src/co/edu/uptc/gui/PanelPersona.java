@@ -1,9 +1,8 @@
-package co.edu.uptc.tienda.gui;
+package co.edu.uptc.gui;
 
 import java.awt.BorderLayout;
 
 import javax.swing.JButton;
-import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JTextArea;
 import javax.swing.border.TitledBorder;

@@ -1,4 +1,4 @@
-package co.edu.uptc.tienda.negocio;
+package co.edu.uptc.negocio;
 
 import java.util.ArrayList;
 

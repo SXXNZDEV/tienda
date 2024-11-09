@@ -1,14 +1,10 @@
-package co.edu.uptc.tienda.gui;
+package co.edu.uptc.gui;
 
-import co.edu.uptc.tienda.negocio.AdministracionSistema;
+import co.edu.uptc.negocio.AdministracionSistema;
 
 import java.awt.*;
-import java.io.BufferedReader;
-import java.io.FileReader;
 import java.io.IOException;
-
 import javax.swing.JFrame;
-import javax.swing.JOptionPane;
 
 public class VentanaPrincipal extends JFrame {
 

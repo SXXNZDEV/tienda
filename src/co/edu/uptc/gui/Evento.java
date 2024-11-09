@@ -1,4 +1,4 @@
-package co.edu.uptc.tienda.gui;
+package co.edu.uptc.gui;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;

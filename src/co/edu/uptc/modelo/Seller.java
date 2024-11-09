@@ -1,4 +1,4 @@
-package co.edu.uptc.tienda.modelo;
+package co.edu.uptc.modelo;
 
 public class Seller {
     private String nombres;

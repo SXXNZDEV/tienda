@@ -1,6 +1,6 @@
-package co.edu.uptc.tienda.negocio;
+package co.edu.uptc.negocio;
 
-import co.edu.uptc.tienda.modelo.Inventory;
+import co.edu.uptc.modelo.Inventory;
 
 import java.util.Map;
 
