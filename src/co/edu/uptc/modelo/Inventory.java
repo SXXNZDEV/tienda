@@ -4,10 +4,10 @@ public class Inventory {
     private String marca;
     private String linea;
     private String codigo;
-    private double precioBase;
+    private long precioBase;
     private int cantidad;
 
-    public Inventory(String marca, String linea, String codigo, double precioBase, int cantidad) {
+    public Inventory(String marca, String linea, String codigo, long precioBase, int cantidad) {
         this.marca = marca;
         this.linea = linea;
         this.codigo = codigo;
@@ -42,11 +42,11 @@ public class Inventory {
         this.codigo = codigo;
     }
 
-    public double getPrecioBase() {
+    public long getPrecioBase() {
         return precioBase;
     }
 
-    public void setPrecioBase(double precioBase) {
+    public void setPrecioBase(long precioBase) {
         this.precioBase = precioBase;
     }
 

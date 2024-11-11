@@ -23,23 +23,7 @@ public class PanelInventario extends JPanel {
 		add(accion1,BorderLayout.SOUTH);
 	}
 	
-	public void obtenerDatos(String[][] datos) {
-		txInformacion.setFont(new Font("Monospaced", Font.PLAIN, 10));
-		if (!txInformacion.getText().isEmpty()) {
-			JOptionPane.showMessageDialog(null, "Ya se ha cargado el inventario");
-			return;
-		}
-		StringBuilder sb = new StringBuilder();
-        for (String[] dato : datos) {
-			sb.append(String.format("%-9s | %-13s | %-7s | %-10s | %-8s\n",
-					dato[0],
-					dato[1],
-					dato[2],
-					dato[3],
-					dato[4]));
-			sb.append("- - - - - - - - - - - - - - - - - - - - - - - - - - - -");
-			sb.append("\n");
-        }
-		txInformacion.append(sb.toString());
+	public String obtenerDatos() {
+		return txInformacion.getText();
 	}
 }

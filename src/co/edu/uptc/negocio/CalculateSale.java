@@ -11,13 +11,7 @@ public class CalculateSale {
         StringBuilder sb = new StringBuilder();
         for (Seller seller : mapSellers.values()) {
             double commisions = 0;
-            sb.append(seller.getTipoID()).append(": ").append(seller.getNumeroID()).append(";").append(seller.getNombres()).append(seller.getApellidos()).append(";").append(seller.getComision()).append(seller.getNumeroCuentaBanc()).append(";").append(seller.getTipoCuentaBanc()).append(";");
-            for (Sales sales : listSales) {
-                if (sales.getCodSeller().equalsIgnoreCase(seller.getCodigo())) {
-                    commisions++;
-                }
-            }
-            sb.append(commisions).append("\n");
+            sb.append(seller.getTipoID()).append(" -> ").append(seller.getNumeroID()).append(";").append(seller.getNombres()).append(seller.getApellidos()).append(";").append(seller.getComision()).append(seller.getNumeroCuentaBanc()).append(";").append(seller.getTipoCuentaBanc()).append(";").append(seller.getSalesCells()).append("\n");
         }
         return sb.toString();
     }

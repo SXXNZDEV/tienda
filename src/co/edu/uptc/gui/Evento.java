@@ -36,10 +36,10 @@ public class Evento implements ActionListener {
         switch (evento) {
             case CARGAR -> ventana.cargarInventario();
 			case CARGAR_PERSONAS -> ventana.loadSellers();
-			case CARGAR_VENTAS -> ventana.cargarVentas();
-            case STOCK -> ventana.generarInformeInventario();
+			case CARGAR_VENTAS -> ventana.loadSales();
+            case STOCK -> ventana.showSales();
+            case VENTAS -> ventana.reportSales();
 			//case MAS_VENDIDO -> ventana.generarInformeMasVendido();
-			//case VENTAS -> ventana.generarInformeVentas();
 			//case IMPUESTOS -> ventana.generarInformeImpuestos();
             case SALIR -> ventana.salir();
         }

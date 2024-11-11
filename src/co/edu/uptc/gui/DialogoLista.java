@@ -10,13 +10,13 @@ public class DialogoLista extends JDialog {
 	public DialogoLista() {
 		// TODO Auto-generated constructor stub
 		txaLista= new JTextArea();
-		setSize(600, 300);
+		setSize(1200, 200);
 		add(txaLista);
 	}
 	
 	public void agregarTexto(String texto) {
 			txaLista.append(texto);
-			txaLista.setFont(new Font("Monospaced", Font.PLAIN, 10));
+			txaLista.setFont(new Font("Monospaced", Font.PLAIN, 15));
 			txaLista.append("\n");	
 			
 		

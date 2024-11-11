@@ -10,8 +10,9 @@ public class Seller {
     private String tipoCuentaBanc;
     private long comision;
     private String codigo;
+    private int salesCells;
 
-    public Seller(String nombres, String apellidos, long telefono, long numeroID, String tipoID, long numeroCuentaBanc, String tipoCuentaBanc,int comision,String codigo) {
+    public Seller(String nombres, String apellidos, long telefono, long numeroID, String tipoID, long numeroCuentaBanc, String tipoCuentaBanc,String codigo) {
         this.nombres = nombres;
         this.apellidos = apellidos;
         this.telefono = telefono;
@@ -19,7 +20,6 @@ public class Seller {
         this.tipoID = tipoID;
         this.numeroCuentaBanc = numeroCuentaBanc;
         this.tipoCuentaBanc = tipoCuentaBanc;
-        this.comision = comision;
         this.codigo = codigo;
     }
 
@@ -87,7 +87,7 @@ public class Seller {
     }
 
     public void setComision(long comision) {
-        this.comision = comision;
+        this.comision += comision;
     }
 
     public String getCodigo() {
@@ -96,5 +96,13 @@ public class Seller {
 
     public void setCodigo(String codigo) {
         this.codigo = codigo;
+    }
+
+    public int getSalesCells() {
+        return salesCells;
+    }
+
+    public void setSalesCells(int salesCells) {
+        this.salesCells = salesCells;
     }
 }

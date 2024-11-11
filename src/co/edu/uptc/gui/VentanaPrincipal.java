@@ -44,10 +44,26 @@ public class VentanaPrincipal extends JFrame {
 	}
 	
 	public void cargarInventario() {
-		inventario.obtenerDatos(administracion.cargarInfoInventario());
+		String info = inventario.obtenerDatos();
+		administracion.loadInventory(info);
+	}
+	public void loadSales() {
+		String info = infoVentas.obtenerDatos();
+		administracion.loadSales(info);
 	}
 
-	public void cargarVentas() {
+	public void showSales() {
+		DialogoLista nuevo= new DialogoLista();
+		String txt = administracion.reportInventoy();
+		nuevo.agregarTexto(txt);
+		nuevo.setVisible(true);
+	}
+
+	public void reportSales() {
+		DialogoLista nuevo= new DialogoLista();
+		String txt = administracion.reportSales();
+		nuevo.agregarTexto(txt);
+		nuevo.setVisible(true);
 	}
 
 	public void cargarPersonas() {}
@@ -63,12 +79,12 @@ public class VentanaPrincipal extends JFrame {
 
 	}
 	
-	public void generarInformeInventario() {
+	/*public void generarInformeInventario() {
 		DialogoLista nuevo= new DialogoLista();
 		String txt = administracion.generarStock();
 		nuevo.agregarTexto(txt);
 		nuevo.setVisible(true);
-	}
+	}*/
 
 	public void salir() {
 		System.exit(0);

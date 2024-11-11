@@ -4,33 +4,44 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ae6aed6c-9455-4e1c-a5d2-60446af3d140" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/tiendaCell.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gui/DialogoLista.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/edu/uptc/gui/DialogoLista.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gui/Evento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/edu/uptc/gui/Evento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gui/PanelBotones.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/edu/uptc/gui/PanelBotones.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gui/PanelInventario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/edu/uptc/gui/PanelInventario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gui/PanelPersona.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/edu/uptc/gui/PanelPersona.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gui/PanelVentas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/edu/uptc/gui/PanelVentas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gui/VentanaPrincipal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/edu/uptc/gui/VentanaPrincipal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modelo/Inventario.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/edu/uptc/modelo/Inventario.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modelo/Inventory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/edu/uptc/modelo/Inventory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modelo/Sales.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/edu/uptc/modelo/Sales.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modelo/Seller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/edu/uptc/modelo/Seller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modelo/Stock.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/edu/uptc/modelo/Stock.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modelo/ventasVendedor.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/edu/uptc/modelo/ventasVendedor.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/negocio/AdministracionSistema.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/edu/uptc/negocio/AdministracionSistema.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/negocio/CalculaReportes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/edu/uptc/negocio/CalculaReportes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/negocio/CalculateBestSelling.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/edu/uptc/negocio/CalculateBestSelling.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/negocio/CalculateSale.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/edu/uptc/negocio/CalculateSale.java" afterDir="false" />
+    <list default="true" id="ae6aed6c-9455-4e1c-a5d2-60446af3d140" name="Changes" comment="Repo correcto">
+      <change afterPath="$PROJECT_DIR$/src/co/edu/uptc/modelo/Taxes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tiendaCell/co/edu/uptc/gui/Evento.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tiendaCell/co/edu/uptc/gui/Evento.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tiendaCell/co/edu/uptc/gui/PanelInventario.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tiendaCell/co/edu/uptc/gui/PanelInventario.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tiendaCell/co/edu/uptc/gui/VentanaPrincipal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tiendaCell/co/edu/uptc/gui/VentanaPrincipal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tiendaCell/co/edu/uptc/modelo/Inventario.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tiendaCell/co/edu/uptc/modelo/Stock.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tiendaCell/co/edu/uptc/modelo/ventasVendedor.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tiendaCell/co/edu/uptc/negocio/AdministracionSistema.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tiendaCell/co/edu/uptc/negocio/AdministracionSistema.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tiendaCell/co/edu/uptc/negocio/CalculaReportes.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tiendaCell/co/edu/uptc/negocio/CalculaReportes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tiendaCell/co/edu/uptc/negocio/CalculateBestSelling.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tiendaCell/co/edu/uptc/negocio/CalculateBestSelling.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/co/edu/uptc/gui/DialogoLista.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/edu/uptc/gui/DialogoLista.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/co/edu/uptc/gui/Evento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/edu/uptc/gui/Evento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/co/edu/uptc/gui/PanelInventario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/edu/uptc/gui/PanelInventario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/co/edu/uptc/gui/PanelVentas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/edu/uptc/gui/PanelVentas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/co/edu/uptc/gui/VentanaPrincipal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/edu/uptc/gui/VentanaPrincipal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/co/edu/uptc/modelo/Inventario.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/co/edu/uptc/modelo/Inventory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/edu/uptc/modelo/Inventory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/co/edu/uptc/modelo/Seller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/edu/uptc/modelo/Seller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/co/edu/uptc/modelo/Stock.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/co/edu/uptc/modelo/ventasVendedor.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/co/edu/uptc/negocio/AdministracionSistema.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/edu/uptc/negocio/AdministracionSistema.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/co/edu/uptc/negocio/CalculaReportes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/edu/uptc/negocio/CalculaReportes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/co/edu/uptc/negocio/CalculateBestSelling.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/edu/uptc/negocio/CalculateBestSelling.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/co/edu/uptc/negocio/CalculateSale.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/edu/uptc/negocio/CalculateSale.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -44,21 +55,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Run.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Usuario/OneDrive/Proyectos/unidadIII/tiendaCellPhones&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Run.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Usuario/OneDrive/Proyectos/unidadIII/tiendaCellPhones",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="Run" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="co.edu.uptc.gui.VentanaPrincipal" />
@@ -77,6 +88,15 @@
       <option name="presentableId" value="Default" />
       <updated>1731180892260</updated>
     </task>
+    <task id="LOCAL-00001" summary="Repo correcto">
+      <option name="closed" value="true" />
+      <created>1731187920228</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1731187920228</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -101,5 +121,60 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Repo correcto" />
+    <option name="LAST_COMMIT_MESSAGE" value="Repo correcto" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/co/edu/uptc/gui/VentanaPrincipal.java</url>
+          <line>45</line>
+          <properties class="co.edu.uptc.gui.VentanaPrincipal" method="cargarInventario">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/co/edu/uptc/negocio/CalculaReportes.java</url>
+          <line>9</line>
+          <properties class="co.edu.uptc.negocio.CalculaReportes" method="calcularPrecioBase">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/co/edu/uptc/negocio/CalculaReportes.java</url>
+          <line>40</line>
+          <properties class="co.edu.uptc.negocio.CalculaReportes" method="calcularIVAMenor">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/co/edu/uptc/negocio/AdministracionSistema.java</url>
+          <line>52</line>
+          <properties class="co.edu.uptc.negocio.AdministracionSistema" method="loadSellers">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/co/edu/uptc/negocio/AdministracionSistema.java</url>
+          <line>119</line>
+          <properties class="co.edu.uptc.negocio.AdministracionSistema" method="loadSales">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

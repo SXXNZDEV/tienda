@@ -1,58 +1,59 @@
 package co.edu.uptc.negocio;
 
 import co.edu.uptc.modelo.Inventory;
+import co.edu.uptc.modelo.Taxes;
 
 import java.util.Map;
 
 public class CalculaReportes {
 
-    public double calcularPrecioBase(Map<String, Inventory> inventoryMap) {
-        double basePrice = 0;
+    public long calcularPrecioBase(Map<String, Inventory> inventoryMap) {
+        long basePrice = 0;
         for (String key : inventoryMap.keySet()) {
-            basePrice += inventoryMap.get(key).getPrecioBase();
+            basePrice += inventoryMap.get(key).getPrecioBase() * inventoryMap.get(key).getCantidad();
         }
         return basePrice;
     }
 
-    public double calcularPrecioVenta(Map<String, Inventory> inventoryMap) {
-        double salesPrice = 0, totalSalesPrice = 0;
+    public long calcularPrecioVenta(Map<String, Inventory> inventoryMap) {
+        long salesPrice = 0;
         for (String key : inventoryMap.keySet()) {
             if (inventoryMap.get(key).getPrecioBase() > 600000) {
-                salesPrice += inventoryMap.get(key).getPrecioBase() * 0.19;
+                salesPrice += (long) (inventoryMap.get(key).getPrecioBase()* inventoryMap.get(key).getCantidad() * 0.19);
             } else {
-                salesPrice += inventoryMap.get(key).getPrecioBase() * 0.05;
+                salesPrice += (long) (inventoryMap.get(key).getPrecioBase() * inventoryMap.get(key).getCantidad() * 0.05);
             }
         }
         return salesPrice;
     }
 
-    public double calcularIVAMayor(Map<String, Inventory> inventory) {
-        double worth = 0;
+    public long calcularIVAMayor(Map<String, Inventory> inventory) {
+        long worth = 0;
         for (String key : inventory.keySet()) {
             Inventory inventor = inventory.get(key);
             if (inventor.getPrecioBase() > 600000) {
-                worth += inventor.getPrecioBase() * 0.19;
+                worth += (long) (inventor.getPrecioBase() * inventor.getCantidad() * 0.19);
             }
         }
         return worth;
     }
 
-    public double calcularIVAMenor(Map<String, Inventory> inventory) {
-        double worth = 0;
+    public long calcularIVAMenor(Map<String, Inventory> inventory) {
+        long worth = 0;
         for (String key : inventory.keySet()) {
             Inventory inventor = inventory.get(key);
             if (inventor.getPrecioBase() <= 600000) {
-                worth += inventor.getPrecioBase() * 0.05;
+                worth += (long) (inventor.getPrecioBase() * inventor.getCantidad() * 0.05);
             }
         }
         return worth;
     }
 
-    public double calculateCommissions(Map<String, Inventory> inventory) {
-        double commission = 0;
+    public long calculateCommissions(Map<String, Inventory> inventory) {
+        long commission = 0;
         for (String key : inventory.keySet()) {
             Inventory inventor = inventory.get(key);
-            commission += inventor.getPrecioBase() * 0.05;
+            commission += (long) (inventor.getPrecioBase() * inventor.getCantidad() * 0.05);
         }
         return commission;
     }
@@ -66,6 +67,14 @@ public class CalculaReportes {
     }
 
     public long calculateProfits(Map<String, Inventory> inventory) {
-        return (long) (calcularPrecioBase(inventory) - (calcularIVAMayor(inventory) + calcularIVAMenor(inventory)));
+        return (calcularPrecioBase(inventory) - calculateCommissions(inventory));
+    }
+
+    public double calculateTaxesMinor(Taxes taxes) {
+        return taxes.getTaxBaseMinor() * 0.05;
+    }
+
+    public double calculateTaxesHigher(Taxes taxes) {
+        return taxes.getTaxBaseMinor() * 0.19;
     }
 }
