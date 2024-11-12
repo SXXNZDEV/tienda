@@ -1,13 +1,13 @@
 package co.edu.uptc.modelo;
 
-public class Inventory {
+public class Inventario {
     private String marca;
     private String linea;
     private String codigo;
     private long precioBase;
     private int cantidad;
 
-    public Inventory(String marca, String linea, String codigo, long precioBase, int cantidad) {
+    public Inventario(String marca, String linea, String codigo, long precioBase, int cantidad) {
         this.marca = marca;
         this.linea = linea;
         this.codigo = codigo;
@@ -15,7 +15,7 @@ public class Inventory {
         this.cantidad = cantidad;
     }
 
-    public Inventory() {
+    public Inventario() {
     }
 
     public String getMarca() {

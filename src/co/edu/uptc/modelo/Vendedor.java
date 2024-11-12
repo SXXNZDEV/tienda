@@ -1,6 +1,6 @@
 package co.edu.uptc.modelo;
 
-public class Seller {
+public class Vendedor {
     private String nombres;
     private String apellidos;
     private long telefono;
@@ -12,7 +12,7 @@ public class Seller {
     private String codigo;
     private int salesCells;
 
-    public Seller(String nombres, String apellidos, long telefono, long numeroID, String tipoID, long numeroCuentaBanc, String tipoCuentaBanc,String codigo) {
+    public Vendedor(String nombres, String apellidos, long telefono, long numeroID, String tipoID, long numeroCuentaBanc, String tipoCuentaBanc, String codigo) {
         this.nombres = nombres;
         this.apellidos = apellidos;
         this.telefono = telefono;
@@ -23,7 +23,7 @@ public class Seller {
         this.codigo = codigo;
     }
 
-    public Seller() {
+    public Vendedor() {
     }
 
     public String getNombres() {
@@ -103,6 +103,6 @@ public class Seller {
     }
 
     public void setSalesCells(int salesCells) {
-        this.salesCells = salesCells;
+        this.salesCells += salesCells;
     }
 }

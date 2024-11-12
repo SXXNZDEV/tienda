@@ -39,12 +39,9 @@ public class Evento implements ActionListener {
 			case CARGAR_VENTAS -> ventana.loadSales();
             case STOCK -> ventana.showSales();
             case VENTAS -> ventana.reportSales();
-			//case MAS_VENDIDO -> ventana.generarInformeMasVendido();
-			//case IMPUESTOS -> ventana.generarInformeImpuestos();
+			case MAS_VENDIDO -> ventana.reportBestSelling();
+			case IMPUESTOS -> ventana.reportIVA();
             case SALIR -> ventana.salir();
         }
-			
-		
 	}
-
 }

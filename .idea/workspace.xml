@@ -4,28 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ae6aed6c-9455-4e1c-a5d2-60446af3d140" name="Changes" comment="Repo correcto">
-      <change afterPath="$PROJECT_DIR$/src/co/edu/uptc/modelo/Taxes.java" afterDir="false" />
+    <list default="true" id="ae6aed6c-9455-4e1c-a5d2-60446af3d140" name="Changes" comment="Avance 10 y 11 de noviembre, se puede visualizar informes de Inventario, y ya casi esta el reporte de ventas">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/tiendaCell/co/edu/uptc/gui/Evento.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tiendaCell/co/edu/uptc/gui/Evento.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tiendaCell/co/edu/uptc/gui/PanelInventario.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tiendaCell/co/edu/uptc/gui/PanelInventario.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/tiendaCell/co/edu/uptc/gui/VentanaPrincipal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tiendaCell/co/edu/uptc/gui/VentanaPrincipal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tiendaCell/co/edu/uptc/modelo/Inventario.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tiendaCell/co/edu/uptc/modelo/Stock.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tiendaCell/co/edu/uptc/modelo/ventasVendedor.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tiendaCell/co/edu/uptc/modelo/Inventory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tiendaCell/co/edu/uptc/modelo/Seller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tiendaCell/co/edu/uptc/modelo/Taxes.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/tiendaCell/co/edu/uptc/negocio/AdministracionSistema.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tiendaCell/co/edu/uptc/negocio/AdministracionSistema.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/tiendaCell/co/edu/uptc/negocio/CalculaReportes.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tiendaCell/co/edu/uptc/negocio/CalculaReportes.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/tiendaCell/co/edu/uptc/negocio/CalculateBestSelling.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tiendaCell/co/edu/uptc/negocio/CalculateBestSelling.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/co/edu/uptc/gui/DialogoLista.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/edu/uptc/gui/DialogoLista.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tiendaCell/co/edu/uptc/negocio/CalculateSale.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tiendaCell/co/edu/uptc/negocio/CalculateSale.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/co/edu/uptc/gui/Evento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/edu/uptc/gui/Evento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/co/edu/uptc/gui/PanelInventario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/edu/uptc/gui/PanelInventario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/co/edu/uptc/gui/PanelVentas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/edu/uptc/gui/PanelVentas.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/co/edu/uptc/gui/VentanaPrincipal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/edu/uptc/gui/VentanaPrincipal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/co/edu/uptc/modelo/Inventario.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/co/edu/uptc/modelo/Inventory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/edu/uptc/modelo/Inventory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/co/edu/uptc/modelo/Seller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/edu/uptc/modelo/Seller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/co/edu/uptc/modelo/Stock.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/co/edu/uptc/modelo/ventasVendedor.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/co/edu/uptc/modelo/Inventory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/edu/uptc/modelo/Inventario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/co/edu/uptc/modelo/Sales.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/edu/uptc/modelo/Venta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/co/edu/uptc/modelo/Seller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/edu/uptc/modelo/Vendedor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/co/edu/uptc/modelo/Taxes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/edu/uptc/modelo/Impuesto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/co/edu/uptc/negocio/AdministracionSistema.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/edu/uptc/negocio/AdministracionSistema.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/co/edu/uptc/negocio/CalculaReportes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/edu/uptc/negocio/CalculaReportes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/co/edu/uptc/negocio/CalculateBestSelling.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/edu/uptc/negocio/CalculateBestSelling.java" afterDir="false" />
@@ -45,6 +40,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -96,7 +94,23 @@
       <option name="project" value="LOCAL" />
       <updated>1731187920228</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Avance 10 y 11 de noviembre, se puede visualizar informes de Inventario, y ya casi esta el reporte de ventas">
+      <option name="closed" value="true" />
+      <created>1731336258621</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1731336258621</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Avance 10 y 11 de noviembre, se puede visualizar informes de Inventario, y ya casi esta el reporte de ventas">
+      <option name="closed" value="true" />
+      <created>1731336282060</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1731336282060</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -124,12 +138,13 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Repo correcto" />
-    <option name="LAST_COMMIT_MESSAGE" value="Repo correcto" />
+    <MESSAGE value="Avance 10 y 11 de noviembre, se puede visualizar informes de Inventario, y ya casi esta el reporte de ventas" />
+    <option name="LAST_COMMIT_MESSAGE" value="Avance 10 y 11 de noviembre, se puede visualizar informes de Inventario, y ya casi esta el reporte de ventas" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
+        <line-breakpoint type="java-method">
           <url>file://$PROJECT_DIR$/src/co/edu/uptc/gui/VentanaPrincipal.java</url>
           <line>45</line>
           <properties class="co.edu.uptc.gui.VentanaPrincipal" method="cargarInventario">
@@ -138,7 +153,7 @@
           </properties>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
+        <line-breakpoint type="java-method">
           <url>file://$PROJECT_DIR$/src/co/edu/uptc/negocio/CalculaReportes.java</url>
           <line>9</line>
           <properties class="co.edu.uptc.negocio.CalculaReportes" method="calcularPrecioBase">
@@ -147,9 +162,9 @@
           </properties>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
+        <line-breakpoint type="java-method">
           <url>file://$PROJECT_DIR$/src/co/edu/uptc/negocio/CalculaReportes.java</url>
-          <line>40</line>
+          <line>39</line>
           <properties class="co.edu.uptc.negocio.CalculaReportes" method="calcularIVAMenor">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
@@ -158,21 +173,69 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/co/edu/uptc/negocio/AdministracionSistema.java</url>
-          <line>52</line>
-          <properties class="co.edu.uptc.negocio.AdministracionSistema" method="loadSellers">
+          <line>230</line>
+          <properties class="co.edu.uptc.negocio.AdministracionSistema" method="reportBestSelling">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
-          <option name="timeStamp" value="6" />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/co/edu/uptc/negocio/CalculateBestSelling.java</url>
+          <line>57</line>
+          <properties class="co.edu.uptc.negocio.CalculateBestSelling" method="calculateBestBrand">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/co/edu/uptc/negocio/AdministracionSistema.java</url>
-          <line>119</line>
+          <line>101</line>
           <properties class="co.edu.uptc.negocio.AdministracionSistema" method="loadSales">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
-          <option name="timeStamp" value="7" />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/co/edu/uptc/negocio/AdministracionSistema.java</url>
+          <line>59</line>
+          <properties class="co.edu.uptc.negocio.AdministracionSistema" method="loadInventory">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/co/edu/uptc/negocio/CalculateBestSelling.java</url>
+          <line>45</line>
+          <properties class="co.edu.uptc.negocio.CalculateBestSelling" method="calculateBestLine">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/co/edu/uptc/negocio/AdministracionSistema.java</url>
+          <line>232</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/co/edu/uptc/negocio/AdministracionSistema.java</url>
+          <line>233</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/co/edu/uptc/negocio/AdministracionSistema.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/co/edu/uptc/modelo/Vendedor.java</url>
+          <line>3</line>
+          <properties field="nombres" class="co.edu.uptc.modelo.Vendedor" />
+          <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

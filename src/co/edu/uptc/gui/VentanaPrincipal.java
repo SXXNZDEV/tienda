@@ -66,25 +66,19 @@ public class VentanaPrincipal extends JFrame {
 		nuevo.setVisible(true);
 	}
 
-	public void cargarPersonas() {}
-
-
-
-	
-	public void cargarInfoVentas() {
-		//TODO implementar logica para separa información
-		// trae lo que hay en textArea en String
-
-
-
-	}
-	
-	/*public void generarInformeInventario() {
+	public void reportBestSelling() {
 		DialogoLista nuevo= new DialogoLista();
-		String txt = administracion.generarStock();
+		String txt = administracion.reportBestSelling();
 		nuevo.agregarTexto(txt);
 		nuevo.setVisible(true);
-	}*/
+	}
+
+	public void reportIVA() {
+		DialogoLista nuevo= new DialogoLista();
+		String txt = administracion.reportTaxes();
+		nuevo.agregarTexto(txt);
+		nuevo.setVisible(true);
+	}
 
 	public void salir() {
 		System.exit(0);

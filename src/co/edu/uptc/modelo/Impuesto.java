@@ -1,6 +1,6 @@
 package co.edu.uptc.modelo;
 
-public class Taxes {
+public class Impuesto {
     private long taxBaseMinor;
     private long taxBaseHigher;
     private long taxMinor;
@@ -8,9 +8,9 @@ public class Taxes {
 
     //Clase creada para calcular directamente el total de impuestos a pagar ya sea del 19% o del 5%
 
-    public Taxes() {}
+    public Impuesto() {}
 
-    public Taxes(long taxBaseMinor, long taxBaseHigher, long taxMinor, long taxHigher) {
+    public Impuesto(long taxBaseMinor, long taxBaseHigher, long taxMinor, long taxHigher) {
         this.taxBaseMinor = taxBaseMinor;
         this.taxBaseHigher = taxBaseHigher;
         this.taxMinor = taxMinor;
